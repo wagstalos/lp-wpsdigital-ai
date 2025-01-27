@@ -1,3 +1,4 @@
+"use client";
 import WordMark from "@/components/WorldMark";
 import { createClient } from "@/prismicio";
 import { PrismicNextLink } from "@prismicio/next";

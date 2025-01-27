@@ -34,8 +34,8 @@ export default function WordMark() {
         <path
           d="M6.84562 53.9373L0.329353 20.1786C0.261545 19.8274 0.653757 19.5705 0.948629 19.7732L17.7286 31.303C17.9529 31.4571 18.2528 31.441 18.4593 31.2636L32.3235 19.3557C32.4734 19.2269 32.6948 19.2269 32.8447 19.3557L46.7089 31.2636C46.9154 31.441 47.2153 31.4571 47.4397 31.303L64.2196 19.7732C64.5145 19.5705 64.9067 19.8274 64.8389 20.1786L58.3226 53.9373C58.2756 54.1807 58.0208 54.3232 57.7888 54.2358L32.7957 44.819C32.6593 44.7676 32.5089 44.7676 32.3726 44.819L7.37941 54.2358C7.14742 54.3232 6.89261 54.1807 6.84562 53.9373Z"
           stroke="url(#paint1_linear_379_194)"
-          stroke-opacity="0.1"
-          stroke-width="0.2"
+          strokeOpacity="0.1"
+          strokeWidth="0.2"
         />
       </g>
       <path
@@ -54,9 +54,9 @@ export default function WordMark() {
           width="70.7251"
           height="41.2021"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.5" />
           <feComposite
             in2="SourceAlpha"
