@@ -16,7 +16,7 @@
           "type": "StructuredText",
           "config": {
             "label": "Heading",
-            "placeholder": "",
+            "placeholder": "Heading custom",
             "allowTargetBlank": true,
             "single": "heading1"
           }
@@ -43,7 +43,7 @@
         "button_label": {
           "type": "Text",
           "config": {
-            "label": "Button Label",
+            "label": "",
             "placeholder": ""
           }
         },

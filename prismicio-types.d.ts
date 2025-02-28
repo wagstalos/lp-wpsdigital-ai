@@ -88,7 +88,7 @@ export interface SettingsDocumentDataNavigationItem {
    * - **API ID Path**: settings.navigation[].link
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  link: prismic.LinkField;
+  link: prismic.LinkField<string, string, unknown, prismic.FieldState, never>;
 
   /**
    * label field in *Settings → Navigation*
@@ -187,7 +187,7 @@ export interface HeroSliceDefaultPrimary {
    * Heading field in *Hero → Default → Primary*
    *
    * - **Field Type**: Title
-   * - **Placeholder**: *None*
+   * - **Placeholder**: Heading custom
    * - **API ID Path**: hero.default.primary.heading
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
@@ -211,10 +211,16 @@ export interface HeroSliceDefaultPrimary {
    * - **API ID Path**: hero.default.primary.button_link
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  button_link: prismic.LinkField;
+  button_link: prismic.LinkField<
+    string,
+    string,
+    unknown,
+    prismic.FieldState,
+    never
+  >;
 
   /**
-   * Button Label field in *Hero → Default → Primary*
+   * button_label field in *Hero → Default → Primary*
    *
    * - **Field Type**: Text
    * - **Placeholder**: *None*

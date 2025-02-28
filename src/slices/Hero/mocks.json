@@ -9,7 +9,7 @@
 					{
 						"type": "heading1",
 						"content": {
-							"text": "Bound"
+							"text": "Travel"
 						}
 					}
 				]
@@ -26,6 +26,7 @@
 				]
 			},
 			"button_link": {
+				"key": "3f36e703-4b43-44d0-b27c-b85519420ec3",
 				"__TYPE__": "LinkContent",
 				"value": {
 					"__TYPE__": "ExternalLink",
@@ -35,11 +36,10 @@
 			},
 			"button_label": {
 				"__TYPE__": "FieldContent",
-				"value": "alone",
+				"value": "able",
 				"type": "Text"
 			},
 			"image": {
-				"__TYPE__": "ImageContent",
 				"origin": {
 					"id": "main",
 					"url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
@@ -57,6 +57,9 @@
 					},
 					"background": "transparent"
 				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
 				"thumbnails": {}
 			}
 		},
